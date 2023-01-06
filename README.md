@@ -47,3 +47,27 @@ Analyze the data through visualization
 
 
 # Conclusion
+**EDA**
+*   Data Wrangling and Data Visualization has provided the best idea about the features involved in the datset.
+
+*   We are fortunate that the dataset was almost a cleaned one with no null values present or duplicate records found, it helped in maintaining the correct pace.
+
+*   Most of the categorical features had a similar distribution or count except the feature '3G'. There were very few records for mobile phones which doesn't support 3G. 
+
+*   While determining the distribution of Categorical features with respect to the taget variable finding states that all the categorical variables namely 'dual_sim', 'wifi', 'blue', 'touch_screen', 'three_g', 'four_g' have a similar count of data for each classes which ranges mostly in between 230 -260(almost)except the variable 'three_g'.In 'three_g' there are very few number of mobiles which doesn't support 3G across all the price ranges.And the number of mobile phones that supports 3G(comparing to mobiles not having 3G) ranges more than 350.
+* *By increasing the size of ram , price increase alot.*
+* *Most number of low cost mobiles, has battery power 750(mAh). Most expensive mobiles have better batteries i.e. 1500-2000(mah)*
+* *Heviest mobiles have low cost**
+* *Most of mobiles in all price range, has 0.5 clock speed.*
+* *Very high cost mobiles have bigger height and width in cm*
+* *mobiles that don't have front camera have medium price*
+* *Most of mobiles in all price range, has front camera with 2 mega pixel.*
+* *Most of mobiles in all price range, has 4 cm width.*
+
+
+
+* ***ML Classification***
+
+*   Based on to our main objective to predict the Mobile Price Range. **Support Vector Machine** is the best performing model, out off all the other models used  namely Decision tree, Gradient Boosting, Knn, Random Forest, XGBoost.
+
+*   Knn model is the worst performing models for our dataset
