@@ -44,6 +44,8 @@ Analyze the data through visualization
 • Gradient Boosting Classifier
 • XGB Classifier
 • Support Vector Machine
+• Logistic Regression
+
 
 
 # Conclusion
@@ -68,6 +70,6 @@ Analyze the data through visualization
 
 **ML Classification**
 
-*   Based on to our main objective to predict the Mobile Price Range. **Support Vector Machine** is the best performing model, out off all the other models used  namely Decision tree, Gradient Boosting, Knn, Random Forest, XGBoost.
+*   Based on to our main objective to predict the Mobile Price Range. **Logistic Regression** & **Support Vector Machine** is the best performing model, out off all the other models used  namely Decision tree, Gradient Boosting, Knn, Random Forest, XGBoost.
 
 *   Knn model is the worst performing models for our dataset
